@@ -1,21 +1,25 @@
-# Paytm Payment Gateway
+# Paytm PG Integration Assistant
 
-Cursor skills plugin for Paytm Payment Gateway code generation. It does not include MCP.
-
-- Plugin id: `paytm-payment-gateway`
-- Skill: `paytm-integration`
+Paytm Plugin for Cursor is to integrate Paytm Payment Gateway in minutes - JS Checkout, Subscriptions, payment links, and QR codes for Node.js, Python, Java, and Spring.
 
 ## What it generates
 
-JS Checkout, subscriptions (UPI Autopay / native subscription), payment links, dynamic QR, All-in-One SDK, Custom SDK, webhooks, and refunds.
+This skills helps developers integrate and build payment experiences using Paytm Payment Gateway (PG) through built-in knowledge of Paytm APIs, integration flows, and best practices.
+Instead of switching between documentation and code editors, developers can simply describe their requirements in plain English and get production-ready integration code.
+It supports multiple programming languages and frameworks, including Node.js, Python, Java, Spring Boot, and HTML/JavaScript.
 
-For a generic "Add Paytm checkout" prompt, the skill uses JS Checkout.
+The skill supports multiple use cases, including:
+- JS Checkout: Integrate Paytm's JavaScript-based checkout experience.
+- Recurring Payments: Set up subscriptions and automated recurring payments.
+- Payment Links: Generate, manage, and track payment links.
+- Payment Processing: Handle transactions, orders, refunds, and payment status.
+- Integration Support: Understand API flows, request parameters, callbacks, and validations.
 
 ## Install
 
 This folder is one plugin in the [paytm-agent-plugins](https://github.com/paytm/paytm-agent-plugins) repo. Cursor loads it from the repo root `marketplace.json`.
 
-A team admin imports `https://github.com/paytm/paytm-agent-plugins` under Dashboard → Plugins & MCPs → Team Marketplaces. After that, install **paytm-payment-gateway** from Customize.
+A team admin imports `https://github.com/paytm/paytm-agent-plugins` under Dashboard → Plugins & MCPs → Team Marketplaces. After that, install **paytm-pg-integration-assistant** from Customize.
 
 ## Credentials
 
@@ -40,7 +44,7 @@ Dashboard: https://dashboard.paytmpayments.com/next/apikeys
 
 ## Layout
 
-    paytm-payment-gateway/
+    paytm-pg-integration-assistant/
     ├── .cursor-plugin/plugin.json
     ├── skills/paytm-integration/SKILL.md
     ├── skills/paytm-integration/references/flows.md
