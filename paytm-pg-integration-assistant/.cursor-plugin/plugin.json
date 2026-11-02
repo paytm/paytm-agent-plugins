@@ -1,5 +1,5 @@
 {
-  "name": "paytm-payment-gateway",
+  "name": "paytm-pg-integration-assistant",
   "version": "1.0.0",
   "description": "Paytm Payment Gateway skills for Cursor: JS Checkout, webhooks, refunds, and SDK integration patterns for Indian commerce. Skills only — no MCP.",
   "author": {

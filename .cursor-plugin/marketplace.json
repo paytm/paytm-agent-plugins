@@ -9,8 +9,8 @@
   },
   "plugins": [
     {
-      "name": "paytm-payment-gateway",
-      "source": "paytm-payment-gateway",
+      "name": "paytm-pg-integration-assistant",
+      "source": "paytm-pg-integration-assistant",
       "description": "Paytm Payment Gateway skills for Cursor: JS Checkout, webhooks, refunds, and SDK integration patterns."
     }
   ]

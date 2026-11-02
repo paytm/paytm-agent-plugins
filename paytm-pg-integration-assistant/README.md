@@ -2,6 +2,9 @@
 
 Paytm Plugin for Cursor is to integrate Paytm Payment Gateway in minutes - JS Checkout, Subscriptions, payment links, and QR codes for Node.js, Python, Java, and Spring.
 
+- Plugin id: `paytm-pg-integration-assistant`
+- Skill: `paytm-integration`
+
 ## What it generates
 
 This skills helps developers integrate and build payment experiences using Paytm Payment Gateway (PG) through built-in knowledge of Paytm APIs, integration flows, and best practices.
