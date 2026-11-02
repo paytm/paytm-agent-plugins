@@ -1,0 +1,21 @@
+{
+  "name": "paytm-payment-gateway",
+  "version": "1.0.0",
+  "description": "Paytm Payment Gateway skills for Cursor: JS Checkout, webhooks, refunds, and SDK integration patterns for Indian commerce. Skills only — no MCP.",
+  "author": {
+    "name": "Paytm Payments Services Ltd",
+    "email": "developer@paytmpayments.com"
+  },
+  "homepage": "https://developer.paytmpayments.com",
+  "license": "MIT",
+  "keywords": [
+    "paytm",
+    "payments",
+    "upi",
+    "india",
+    "gateway",
+    "checkout",
+    "refunds"
+  ],
+  "skills": "./skills/"
+}

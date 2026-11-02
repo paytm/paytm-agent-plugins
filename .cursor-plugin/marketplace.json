@@ -1,0 +1,17 @@
+{
+  "name": "paytm-agent-plugins",
+  "owner": {
+    "name": "Paytm Payments Services Ltd",
+    "email": "developer@paytmpayments.com"
+  },
+  "metadata": {
+    "description": "Paytm plugins for Cursor."
+  },
+  "plugins": [
+    {
+      "name": "paytm-payment-gateway",
+      "source": "paytm-payment-gateway",
+      "description": "Paytm Payment Gateway skills for Cursor: JS Checkout, webhooks, refunds, and SDK integration patterns."
+    }
+  ]
+}
